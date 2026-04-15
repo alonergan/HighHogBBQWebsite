@@ -1,11 +1,10 @@
 import { Card, Space, Tag } from 'antd'
 
 const awards = [
-  { year: 2025, result: 'Grand Champion', event: 'Mid-State Smoke Showdown' },
-  { year: 2024, result: '4th Place Whole Hog', event: 'Riverfront BBQ Classic' },
-  { year: 2024, result: '2nd Place Pork Shoulder', event: 'Carolina Fire Fest' },
-  { year: 2023, result: '1st Place Ribs', event: 'Backyard to Big League Invitational' },
-  { year: 2023, result: 'Top 10 Overall', event: 'Southern Smoke Cup' },
+    { year: 2025, result: '4th Place Whole Hog', event: 'SmokeSlam' },
+    { year: 2024, result: '5th Place Whole Hog', event: 'SmokeSlam' },
+    { year: 2025, result: '3rd Place Dessert', event: 'SmokeSlam' },
+    { year: 2025, result: '3rd Place T-Shirt', event: 'SmokeSlam' },
 ]
 
 export default function AwardsPage() {

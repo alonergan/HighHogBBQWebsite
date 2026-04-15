@@ -4,17 +4,17 @@ const highlights = [
   {
     title: 'Who We Are',
     description:
-      'High Hog BBQ is a competition BBQ team focused on whole hog, ribs, and shoulder categories across regional events.',
+      'High Hog BBQ is a competition BBQ team founded by a group of childhood friends based out of Memphis, TN focusing on Whole Hog, Shoulder, and Ribs',
   },
   {
     title: 'What We Do',
     description:
-      'We practice year-round, test flavor profiles, and compete to perfect our turn-in boxes while representing our community.',
+      'We practice year round for annual BBQ competitions and offer catering or in person cooks for events',
   },
   {
     title: 'Our Style',
     description:
-      'Our cooks blend classic smokehouse methods with modern prep and consistency tracking for repeatable championship results.',
+      'Our pitmasters blend classic Memphis BBQ methods with modern techniques for repeatable championship results.',
   },
 ]
 
@@ -23,14 +23,12 @@ export default function HomePage() {
     <div className="page-wrap">
       <section className="hero-panel">
         <div>
-          <p className="eyebrow">Competition BBQ Team</p>
           <h1>Welcome to High Hog BBQ</h1>
           <p className="intro-copy">
-            We are a dedicated crew of pitmasters, prep specialists, and weekend warriors chasing clean smoke,
-            balanced flavor, and top finishes at every competition.
+            We are a dedicated crew of pitmasters and weekend warriors chasing classic Memphis style flavor using innovative techniques to secure top finishes at every competition.
           </p>
         </div>
-        <img src="https://placehold.co/640x360?text=Team+Photo+Placeholder" alt="Team placeholder" />
+        <img src="./assets/TeamPhoto_2025.png" alt="Team placeholder" />
       </section>
 
       <Row gutter={[16, 16]}>

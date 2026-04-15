@@ -2,22 +2,22 @@ import { Card, Col, Row } from 'antd'
 
 const events = [
   {
-    title: 'Smoke in the Valley 2025',
-    date: 'April 2025',
-    summary: 'Great weather, tough table, and a strong whole hog finish.',
-    image: 'https://placehold.co/600x360?text=Event+Photo+1',
-  },
-  {
-    title: 'Pitmasters Cup 2024',
-    date: 'September 2024',
-    summary: 'Packed crowd and one of our favorite rib cooks of the season.',
-    image: 'https://placehold.co/600x360?text=Event+Photo+2',
-  },
-  {
-    title: 'County Fair Cook-Off 2024',
+    title: 'SmokeSlam 2024',
     date: 'May 2024',
-    summary: 'Family-focused event with strong shoulder scores and fan feedback.',
-    image: 'https://placehold.co/600x360?text=Event+Photo+3',
+    summary: 'Great weather, riverfront views, and a strong whole hog finish.',
+    image: './assets/SmokeSlamLogo.png',
+  },
+  {
+    title: 'SmokeSlam 2025',
+    date: 'May 2025',
+    summary: 'Rainy weather, good people, and even stronger whole hog finish',
+    image: './assets/SmokeSlamLogo.png',
+  },
+  {
+    title: 'Whole Hog Cook at The Farm At Okefenokee',
+    date: 'April 2026',
+    summary: 'Farm to table dinner event. Prepared a variety of dishes utilizing Meishan pork',
+    image: './assets/TheFarmLogo.png',
   },
 ]
 

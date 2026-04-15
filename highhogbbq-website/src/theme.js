@@ -1,15 +1,15 @@
 export const siteTheme = {
   colors: {
-    primary: '#b33a1f',
-    primaryDark: '#7f2713',
-    background: '#f8f5f1',
-    surface: '#ffffff',
-    surfaceAlt: '#fff7ef',
+    primary: '#81a8e1',
+    primaryDark: '#121643',
+        background: '#81a8e1',
+        surface: '#ffffff',
+        surfaceAlt: '#ffffff',
     text: '#1f1f1f',
     textMuted: '#5c5c5c',
-    border: '#e7ddd2',
-    headerBg: '#2b170f',
-    headerText: '#fff5eb',
+    border: '#ffad01',
+        headerBg: '#121643',
+        headerText: '#ffad01',
   },
   radius: {
     sm: '8px',
